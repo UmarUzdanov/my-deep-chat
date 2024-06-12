@@ -1,7 +1,7 @@
 [build]
 base = "example-servers/sveltekit"
 command = "npm install --include=dev && npm run build"
-publish = "example-servers/sveltekit/.svelte-kit/output/client"
+publish = ".svelte-kit/output/client"
 
 [[redirects]]
 from = "/*"
