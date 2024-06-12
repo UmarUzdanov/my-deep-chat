@@ -1,7 +1,7 @@
 [build]
 base = "example-servers/sveltekit"
-command = "npm run build"
-publish = "example-servers/sveltekit/build/"
+command = "npm install && npm run build"
+publish = ".svelte-kit/output/client"
 
 [[redirects]]
 from = "/*"
@@ -11,4 +11,4 @@ status = 200
 [dev]
 command = "npm run dev"
 port = 3000
-publish = "example-servers/sveltekit/build/"
+publish = ".svelte-kit/output/client"
