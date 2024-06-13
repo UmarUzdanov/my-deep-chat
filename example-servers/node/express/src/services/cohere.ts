@@ -1,7 +1,7 @@
 import {NextFunction, Request, Response} from 'express';
 import https from 'https';
 
-// Make sure to set the COHERE_API_KEY environment variable in a .env file (create if does not exist) - see .env
+// Make sure to set the COHERE_API_KEY environment variable in a .env file (create if does not exist) - see .env.example
 
 export class Cohere {
   public static async chat(body: Request['body'], res: Response, next: NextFunction) {
