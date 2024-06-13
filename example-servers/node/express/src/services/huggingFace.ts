@@ -1,7 +1,7 @@
 import {NextFunction, Request, Response} from 'express';
 import https from 'https';
 
-// Make sure to set the HUGGING_FACE_API_KEY environment variable in a .env file (create if does not exist) - see .env.example
+// Make sure to set the HUGGING_FACE_API_KEY environment variable in a .env file (create if does not exist) - see .env
 
 export class HuggingFace {
   public static async conversation(body: Request['body'], res: Response, next: NextFunction) {

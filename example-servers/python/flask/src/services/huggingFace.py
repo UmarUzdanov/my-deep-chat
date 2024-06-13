@@ -1,7 +1,7 @@
 import requests
 import os
 
-# Make sure to set the HUGGING_FACE_API_KEY environment variable in a .env file (create if does not exist) - see .env.example
+# Make sure to set the HUGGING_FACE_API_KEY environment variable in a .env file (create if does not exist) - see .env
 
 class HuggingFace:
     def conversation(self, body):

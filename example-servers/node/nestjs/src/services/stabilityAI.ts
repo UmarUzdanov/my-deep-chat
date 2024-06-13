@@ -3,7 +3,7 @@ import * as FormData from 'form-data';
 import {Request} from 'express';
 import axios from 'axios';
 
-// Make sure to set the STABILITY_API_KEY environment variable in a .env file (create if does not exist) - see .env.example
+// Make sure to set the STABILITY_API_KEY environment variable in a .env file (create if does not exist) - see .env
 
 @Injectable()
 export class StabilityAI {

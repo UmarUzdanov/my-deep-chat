@@ -2,7 +2,7 @@ import {Injectable} from '@nestjs/common';
 import {Request} from 'express';
 import axios from 'axios';
 
-// Make sure to set the COHERE_API_KEY environment variable in a .env file (create if does not exist) - see .env.example
+// Make sure to set the COHERE_API_KEY environment variable in a .env file (create if does not exist) - see .env
 
 @Injectable()
 export class Cohere {

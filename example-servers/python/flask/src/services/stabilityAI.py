@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-# Make sure to set the STABILITY_API_KEY environment variable in a .env file (create if does not exist) - see .env.example
+# Make sure to set the STABILITY_API_KEY environment variable in a .env file (create if does not exist) - see .env
 
 class StabilityAI:
     def text_to_image(self, body):
